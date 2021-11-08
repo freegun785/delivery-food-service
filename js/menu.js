@@ -55,5 +55,5 @@ fetch(`./db/${restaurant.products}`)
     console.log(error);
   })
 } else {
-  window.location.href = '/';
+  window.location.href = './index.html';
 }

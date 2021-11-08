@@ -28,7 +28,7 @@ const logout = () => {
 
   localStorage.removeItem('user');
 
-  window.location.href = '/';
+  window.location.href = './index.html';
 }
 
 buttonAuth.addEventListener('click', () => {
